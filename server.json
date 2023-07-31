@@ -7,7 +7,7 @@
             "id": 1,
             "title": "Iniciando com React",
             "lessons": [
-              { "id": "'Jai8w6K_GnY'", "title": "CSS Modules", "duration": "13:45"},
+              { "id": "Jai8w6K_GnY", "title": "CSS Modules", "duration": "13:45"},
               {
                 "id": "w-DW4DhDfcw",
                 "title": "Estilização do Post",
