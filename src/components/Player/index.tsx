@@ -9,7 +9,12 @@ import { Module } from '../Module'
 import { useCurrentLesson, useStore } from '@/zustand-store'
 
 export function Player() {
-  const { course, load } = useStore()
+  const { course, load } = useStore((store) => {
+    return {
+      course: store.course,
+      load: store.load,
+    }
+  })
 
   const { currentLesson } = useCurrentLesson()
 
